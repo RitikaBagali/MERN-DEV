@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Attendence</title>
+  </head>
+  <body>    
+  <script>         
+  let n=Number(prompt("Enter number of Attendece"))
+  let Attendence= ["P", "A","P","A","P"];        
+  let totalabsent=0;        
+  let totalpresent=0;        
+  for (let i = 0; i<5; i++) {           
+     if(Attendence[i]=="P"){                
+        totalpresent +=1;           
+     }            
+     else{                
+        totalabsent +=1;           
+     }  }        
+     document.write("Total Present:", totalpresent);        
+     document.write("Total Absent:", totalabsent);    
+     </script>
+     </body>
+     </html>
